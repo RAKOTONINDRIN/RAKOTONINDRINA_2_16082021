@@ -22,15 +22,22 @@ body {
     margin: 0px;
     display: block;
 }
-
+git 
 /*body*/
 /*en-tête*/
 /*header*/
 .en-tête {
     grid-template-columns: auto 1fr auto auto;
     display: grid;
+}
+.conteneur {
     max-width: 1440px;
     margin: auto;
+}
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 /*header*/
@@ -40,13 +47,13 @@ a {
     color: inherit;
     text-decoration: none;
 }
+.lien-logo {
+    display: inline-block;
+}
 
 /*a(logo)*/
 
 /*nav*/
-.en-tête nav {
-    grid-area: navbar;
-}
 
 nav {
     display: block;
@@ -55,38 +62,26 @@ nav {
 /*nav*/
 
 /*ul*/
-.en-tête ul {
-    margin: 1.2rem 0;
-    width: 100%;
-    text-align: center;
-}
 
-ul {
-    list-style: none;
-    display: inline-flex;
+.en-tête ul {
+    margin: 0;
     padding: 0;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    padding-inline-start: 40px;
+    text-align: center;
+    list-style: none;
 }
 
 /*ul*/
 
 /*li*/
 .en-tête li {
-    padding: 0 1.2rem;
+    display: inline-block;
+    padding: 40px 20px 30px;
 }
-
-li {
-    display: list-item;
-    text-align: -webkit-match-parent;
-}
-
-/*li-hebergement*/
-.en-tête nav a[data-active="oui"] {
+.en-tête li.active {
     border-top: 3px solid #0065FC;
+}
+/*li-hebergement*/
+.en-tête nav li.active a{
     color: #0065FC;
 }
 
@@ -107,11 +102,6 @@ li {
     border-bottom: 3px transparent solid;
 }
 
-. a {
-    color: inherit;
-    text-decoration: none;
-}
-
 /*li_activités*/
 
 /*li-s'inscrire*/
@@ -122,16 +112,6 @@ li {
 #inscription a {
     color: #0065FC;
     font-weight: 700;
-}
-
-.en-tête li {
-    padding: 0 1.2rem;
-}
-
-.en-tête nav a {
-    padding: 1rem 0;
-    text-align: center;
-    border-bottom: 3px transparent solid;
 }
 
 /*li-s'inscire*/
@@ -152,23 +132,11 @@ body {
 
 /*recherche*/
 .main {
-    max-width: 1440px;
     margin: auto;
     padding: 0 2rem;
     box-sizing: border-box;
 }
 
-main {
-    display: block;
-}
-
-section {
-    display: block;
-}
-
-header {
-    display: block;
-}
 
 .recherche h1 {
     margin-bottom: 0.5em;
@@ -389,10 +357,6 @@ section {
 
 .HebergementsMarseille header {
     grid-column: 1/-1;
-}
-
-header {
-    display: block;
 }
 
 .HebergementsMarseille h2 {

@@ -19,7 +19,8 @@ head {
 
 /*body*/
 body {
-    margin: 0px;
+    margin: 10px;
+
 }
 
 git
@@ -336,6 +337,14 @@ button {
 
 .HebergementsMarseille h3 {
     margin: 0.25rem 0.75rem 0 0.75rem;
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    color: black;
 }
 
 .HebergementsMarseille p {
@@ -344,6 +353,13 @@ button {
 
 .HebergementsMarseille ul {
     margin: 5px 0.75rem 0.25rem 0.75rem;
+}
+
+.HebergementsMarseille ul {
+    list-style: none;
+    padding: 4px;
+    margin: 6px;
+    display: flex;
 }
 
 .fas[data-active="true"] {
@@ -454,6 +470,14 @@ figure {
 
 .Lespluspopulaires h3 {
     margin: 0.25rem 0.75rem 0 0.75rem;
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    color: black;
 }
 
 .Lespluspopulaires p {
@@ -474,6 +498,10 @@ b {
 
 .Lespluspopulaires ul {
     margin: 0 0.75rem 0.25rem 0.75rem;
+    list-style: none;
+    padding: 4px;
+    margin: 6px;
+    display: flex;
 }
 
 /*Les plus populaires*/
@@ -528,6 +556,8 @@ h2 {
 }
 
 .activités h3 {
+    font-weight: bold;
+    color: black;
     margin: 1.2rem 1.5rem;
 }
 
@@ -559,48 +589,46 @@ h2 {
 /*Activités*/
 
 /*pieds de page*/
-.piedsdepage {
-    background-color: #F2F2F2;
-    width: 100%;
-    display: flex
-}
-.colonneassistance {
-    padding: 0rem 2rem
-}
-
-h3 {
-    display: block;
-    font-size: 1.17em;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    font-weight: bold;
-}
-
-.piedsdepage ul {
-    display: block;
-}
-
-ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
+footer {
     display: flex;
 }
+.container {
+    background-color: #F2F2F2;
+    display: flex 
+    padding-top: 24px
+}
 
-.piedsdepage ul li {
-    margin: 1rem 0;
+.container h3 {
+    font-weight: bold;
+    color: black;
+    margin: 49px 0px 0px 23px;
+}
+
+.container ul {
+    list-style: none;
+    margin: 0px 0px 0px -18px;
 }
 
 li {
-    text-align: -webkit-match-parent;
-    list-style: none;
+    margin: 1rem 0;
 }
 
-a {
-    text-decoration: none;
+.container a {
+    text-decoration: black;
     cursor: pointer;
+    color: black;
+}
+
+.colonneapropos {
+    margin: 20px 40px 0px 35px;
+}
+
+.colonnenoshebergements {
+    margin: auto;
+}
+
+.colonneassistance {
+    margin: 20px 141px 0px 0px;
 }
 
 /*pieds de page*/

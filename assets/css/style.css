@@ -336,19 +336,16 @@ button {
 }
 
 .HebergementsMarseille h3 {
-    margin: 0.25rem 0.75rem 0 0.75rem;
     display: block;
-    font-size: 1.17em;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    font-weight: bold;
-    color: black;
+    margin: 0px;
+    padding: 10px;
+    display: block;
 }
 
 .HebergementsMarseille p {
-    margin: 0.25rem 0.75rem 0 0.75rem;
+    margin: -5px 0px -20px 10px;
+    text-decoration: none;
+    font: caption;
 }
 
 .HebergementsMarseille ul {
@@ -379,6 +376,11 @@ button {
     font-family: "Font Awesome 5 Free";
 }
 
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
 /*Hebergement à Marseille*/
 
 /*Les plus populaires*/
@@ -425,6 +427,7 @@ aside {
     cursor: pointer;
     box-sizing: border-box;
     height: 100%;
+    margin: 7px;
 }
 
 article {
@@ -469,19 +472,15 @@ figure {
 }
 
 .Lespluspopulaires h3 {
-    margin: 0.25rem 0.75rem 0 0.75rem;
+    margin: 0px;
+    padding: 10px;
     display: block;
-    font-size: 1.17em;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    font-weight: bold;
-    color: black;
 }
 
 .Lespluspopulaires p {
-    margin: 0.25rem 0.75rem 0.25rem 0.75rem;
+    margin: -5px 0px -20px 10px;
+    text-decoration: none;
+    font: caption;
 }
 
 p {
@@ -500,7 +499,7 @@ b {
     margin: 0 0.75rem 0.25rem 0.75rem;
     list-style: none;
     padding: 4px;
-    margin: 6px;
+    margin: 20px 0 0 8px;
     display: flex;
 }
 

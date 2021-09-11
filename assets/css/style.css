@@ -19,8 +19,7 @@ head {
 
 /*body*/
 body {
-    margin: 10px;
-
+    margin: 0px;
 }
 
 git
@@ -76,6 +75,7 @@ nav {
 .en-tete li {
     display: inline-block;
     padding: 40px 20px 30px;
+    margin: 0px;
 }
 
 .en-tete li.active {
@@ -130,6 +130,9 @@ body {
     margin: auto;
     padding: 0 2rem;
     box-sizing: border-box;
+}
+.recherche_wrapper {
+    display: grid;
 }
 
 
@@ -289,7 +292,7 @@ button {
 /*recherche*/
 /*Hebergements à Marseille*/
 
-.hebergements {
+.hebergements_wrapper {
     display: grid;
     column-gap: 2rem;
     grid-template-columns: 6fr 3fr;

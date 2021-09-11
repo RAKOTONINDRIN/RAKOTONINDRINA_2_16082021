@@ -539,7 +539,7 @@ p {
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: auto 14rem 2rem 2rem 2rem 14rem;
     column-gap: 2rem;
-    margin: 4rem 0;
+    margin: 4rem 5px;
 }
 
 .activites h2 {

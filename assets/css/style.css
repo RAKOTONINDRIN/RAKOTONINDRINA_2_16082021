@@ -178,7 +178,7 @@ h1 {
 
 input {
     appearance: auto;
-    box-sizing: border-box -webkit-writing-mode: horizontal-tb !important;
+    box-sizing: border-box; -webkit-writing-mode: horizontal-tb !important;
     text-rendering: auto;
     color: -internal-light-dark(black, white);
     letter-spacing: normal;
@@ -379,7 +379,7 @@ button {
 a {
     text-decoration: none;
     color: black;
-    font-weight: bold;
+
 }
 /*Hebergement à Marseille*/
 
@@ -466,9 +466,10 @@ figure {
     object-fit: cover;
 }
 
-.lespluspopulaires- {
+.lespluspopulaires {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
 }
 
 .Lespluspopulaires h3 {
@@ -495,6 +496,12 @@ b {
     font-weight: bold;
 }
 
+.lespluspopulaires- {
+    justify-content: space-between;
+    display: flex;
+    flex-flow: column;
+}
+
 .Lespluspopulaires ul {
     margin: 0 0.75rem 0.25rem 0.75rem;
     list-style: none;
@@ -502,6 +509,10 @@ b {
     margin: 20px 0 0 8px;
     display: flex;
 }
+.lespluspopulaires- ul li{
+    margin: 0;
+}
+
 
 /*Les plus populaires*/
 /*recherche*/
@@ -588,13 +599,18 @@ h2 {
 /*Activités*/
 
 /*pieds de page*/
-footer {
-    display: flex;
-}
 .container {
     background-color: #F2F2F2;
-    display: flex 
-    padding-top: 24px
+}
+
+.conteneur {
+    max-width: 1440px;
+    margin: auto;
+}
+.colonne-footer{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
 }
 
 .container h3 {
@@ -616,18 +632,6 @@ li {
     text-decoration: black;
     cursor: pointer;
     color: black;
-}
-
-.colonneapropos {
-    margin: 20px 40px 0px 35px;
-}
-
-.colonnenoshebergements {
-    margin: auto;
-}
-
-.colonneassistance {
-    margin: 20px 141px 0px 0px;
 }
 
 /*pieds de page*/

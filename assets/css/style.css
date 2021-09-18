@@ -534,6 +534,11 @@ p {
 /*recherche*/
 
 /*Activités*/
+.hebergements_wrapper {
+    display: grid;
+    column-gap: 2rem;
+    grid-template-columns: 6fr 3fr;
+}
 .activites {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -652,3 +657,7 @@ li {
 }
 
 /*pieds de page*/
+
+@media all and (max-width:500px) {
+    .lien-logo {nav-up:100%}
+}

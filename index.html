@@ -8,6 +8,7 @@
 	<title>Reservia</title>
 	<link href="assets/lib/fontawesome/css/all.css" rel="stylesheet">
 	<link rel="stylesheet" href="assets/css/style.css" />
+	<link rel="stylesheet" href="assets/css/responsive.css" />
 </head>
 <!--en-tête-->
 
@@ -21,6 +22,11 @@
 				<a href="#" class="lien-logo">
 					<img src="assets/images/logo/Reservia.svg" alt="Reservia">
 				</a>
+				<ul class="mobile">
+					<li>
+						<a href="#">s'inscrire</a>
+					</li>
+				</ul>
 				<nav>
 					<ul>
 						<li class="active">
@@ -52,7 +58,10 @@
 					</span>
 					<input type="recherche" placeholder="Marseille, France">
 					<button>
-						<span type="submit">Rechercher</span>
+						<div class="search">
+							<i class="fas fa-search"></i> 
+						</div>
+						<span id="submit">Rechercher</span>
 					</button>
 				</form>
 				<div class="filtres-de-recherche">

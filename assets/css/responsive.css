@@ -12,32 +12,37 @@
    }
 
    body{
-    margin: 1rem 1rem 1rem 1rem;
+    margin: 1rem 
    }
 
    .header {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    flex-wrap: wrap;
    }
 
     .en-tete ul {
         display: inline-flex;
     }
 
+   
+
     .en-tete li {
         display:inline-block;
     }
 
+    .en-tete li.active {
+        border-bottom: 3px solid #0065FC;
+        border-top: none;
+    }
+
     nav {
-        display: block;
+        display: block; 
         width: 100%;
     }
 
     .en-tete nav ul {
         width: 100%;
         display: flex;
-        flex-wrap: wrap;
     }
 
     .en-tete nav ul li {
@@ -45,9 +50,8 @@
         
     }
 
-    .conteneur h1 {
-        width: 59%;
-    }
+   
+
   
     #submit {
         display: none;
@@ -70,29 +74,50 @@
         padding-right: 1rem;
     }
 
+    span {
+        display: inline-flex;
+        align-items: baseline;
+    }
+
+   
+
+    .filtres-de-recherche div {
+        margin-right: 10rem;
+    }
+
+    i.fas.fa-money-bill-wave {
+        margin: -2px;
+    }
+
+    i.fas.fa-child {
+        margin: -2px;
+    }
+
+    i.fas.fa-heart {
+        margin: -2px;
+    }
+
+    i.fas.fa-dog {
+        margin: -2px;
+    }
+
     .filtres-de-recherche {
         margin-top: 2rem;
     }
-  
-    .information {
-        width: 58%;
+
+    i.fas.fa-money-bill-wave {
+        margin: -2px;
     }
 
-    .filtres-de-recherche div {
-        display: flex;
-        align-items: center;
-        margin-right: 25rem;
-        border: 2px solid #d9d9d9;
-        border-radius: 2rem;
-        margin-bottom: 1rem;
-        cursor: pointer;
-        font-weight: bold;
-        padding-right: 1rem;
+    aside.lespluspopulaires {
+        border-radius: 0rem;
+        row-gap: 1rem;
     }
-   
+    
     .hebergements_wrapper {
         display: flex;
         flex-direction: column-reverse;
+        margin: 0rem -3rem 0rem -1rem;
     }
 
     .hebergements-marseille {
@@ -109,8 +134,13 @@
         display: flex;
         flex-direction: column;
     }
-    .actMars {
+   
+    .activites img {
         position: inherit;
+    }
+
+    .activites a {
+        box-shadow: 0 0 7px #0000002e;
     }
 
     .colonne-footer {

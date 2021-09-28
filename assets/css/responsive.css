@@ -6,13 +6,17 @@
    .mobile {
        display: block;
    }
+
+   .header .mobile {
+       margin-right: 20px;
+   }
+
+   .lien-logo {
+    margin-left: 20px;
+   }
    
    #inscription {
     display: none;
-   }
-
-   body{
-    margin: 1rem 
    }
 
    .header {
@@ -50,7 +54,9 @@
         
     }
 
-   
+    section.recherche {
+        padding: 20px;
+    }
 
   
     #submit {
@@ -77,12 +83,28 @@
     span {
         display: inline-flex;
         align-items: baseline;
+        margin-right: 5px;
+    }
+
+    .filtres-de-recherche i {
+        min-height: 0rem;
+        min-width: 0rem;
+    }
+
+    .filtres-de-recherche div {
+        margin-right: 1rem;
     }
 
    
 
-    .filtres-de-recherche div {
-        margin-right: 10rem;
+    .filtres-de-recherche {
+        margin-top: 2rem;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    h2 {
+        width: 100%;
     }
 
     i.fas.fa-money-bill-wave {
@@ -117,7 +139,8 @@
     .hebergements_wrapper {
         display: flex;
         flex-direction: column-reverse;
-        margin: 0rem -3rem 0rem -2rem;
+        column-gap: unset;
+        grid-template-columns: none;
     }
 
     .hebergements-marseille {
@@ -131,9 +154,15 @@
         margin: 0rem 0.5rem 0rem 0rem;
     }
 
+    li {
+        margin: 1rem 0 0;
+    }
+
     .activites {
         display: flex;
         flex-direction: column;
+        padding: 20px;
+        margin: 10px;
     }
    
     .activites img {

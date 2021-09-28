@@ -117,7 +117,7 @@
     .hebergements_wrapper {
         display: flex;
         flex-direction: column-reverse;
-        margin: 0rem -3rem 0rem -1rem;
+        margin: 0rem -3rem 0rem -2rem;
     }
 
     .hebergements-marseille {
@@ -128,6 +128,7 @@
         display: flex;
         flex-direction: column;
         background-color: white;
+        margin: 0rem 0.5rem 0rem 0rem;
     }
 
     .activites {

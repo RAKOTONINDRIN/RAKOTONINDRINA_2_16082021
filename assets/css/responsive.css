@@ -19,6 +19,11 @@
     display: none;
    }
 
+   .header .mobile a {
+    color: #0065fc;
+    font-weight: bold;
+   }
+
    .header {
     display: flex;
     flex-wrap: wrap;
@@ -51,7 +56,7 @@
 
     .en-tete nav ul li {
         width: 50%;
-        
+        padding: 1rem;
     }
 
     section.recherche {
@@ -66,6 +71,10 @@
     .recherche form {
         max-width: 100%;
         overflow: auto;
+    }
+
+    .recherche form input[type="recherche"] {
+        font-family: unset;
     }
 
     .recherche form button {

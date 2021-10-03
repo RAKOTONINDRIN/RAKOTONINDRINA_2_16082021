@@ -68,6 +68,7 @@
         display: none;
     }
 
+    
     .recherche form {
         max-width: 100%;
         overflow: auto;
@@ -106,7 +107,7 @@
 
    
 
-    .filtres-de-recherche {
+    .filtres-de-recherche  {
         margin-top: 2rem;
         display: flex;
         flex-wrap: wrap;
@@ -139,12 +140,20 @@
     i.fas.fa-money-bill-wave {
         margin: -2px;
     }
-
+    
+    .information {
+        margin: 1rem 0 1rem 0px;
+    }
     aside.lespluspopulaires {
         border-radius: 0rem;
         row-gap: 1rem;
+        margin: -1rem 0 0rem 0;
     }
-    
+
+    .lespluspopulaires article {
+        margin: 0px;
+    }
+
     .hebergements_wrapper {
         display: flex;
         flex-direction: column-reverse;
@@ -154,13 +163,13 @@
 
     .hebergements-marseille {
         border-radius: 1.5rem;
-        padding: 2rem;
+        padding: 1rem;
         column-gap: 2rem;
-        row-gap: 2rem;
+        row-gap: 1rem;
         display: flex;
         flex-direction: column;
         background-color: white;
-        margin: 0rem 0.5rem 0rem 0rem;
+        
     }
 
     li {
@@ -171,15 +180,18 @@
         display: flex;
         flex-direction: column;
         padding: 20px;
-        margin: 10px;
+        margin: 0px;
     }
    
     .activites img {
         position: inherit;
+        height: 15rem;
     }
 
     .activites a {
         box-shadow: 0 0 7px #0000002e;
+        margin-block: 2rem;
+}
     }
 
     .colonne-footer {

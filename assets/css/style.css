@@ -136,6 +136,9 @@ body {
     display: grid;
 }
 
+.search {
+    display: none;
+}
 
 .recherche h1 {
     margin-bottom: 0.5em;

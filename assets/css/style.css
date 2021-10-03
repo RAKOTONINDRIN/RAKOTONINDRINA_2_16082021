@@ -136,9 +136,8 @@ body {
     display: grid;
 }
 
-.search {
-    display: none;
-}
+
+
 
 .recherche h1 {
     margin-bottom: 0.5em;
@@ -235,7 +234,7 @@ button {
 /*Filtres*/
 
 
-}
+
 .filtres-de-recherche {
     display: flex;
     margin-top: 2rem;
@@ -313,6 +312,8 @@ button {
     grid-template-columns: repeat(3, 1fr);
     column-gap: 2rem;
     row-gap: 2rem;
+    margin-left: 3rem;
+    margin-right: 0rem;
 }
 
 .hebergements-marseille header {
@@ -406,7 +407,7 @@ aside {
 .lespluspopulaires {
     background-color: #F2F2F2;
     border-radius: 1.5rem;
-    padding: 2rem;
+    padding: 2rem 0rem 2rem 2rem;
     row-gap: 2rem;
     display: grid;
     align-items: start;
@@ -484,6 +485,7 @@ figure {
 .lespluspopulaires {
     flex-direction: column;
     justify-content: space-between;
+    margin-right: 3rem;
 }
 
 .lespluspopulaires h3 {
@@ -544,9 +546,8 @@ p {
 .activites {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: auto 14rem 2rem 2rem 2rem 14rem;
     column-gap: 2rem;
-    margin: 4rem 5px;
+    margin: 3rem 3rem;
 }
 
 .activites h2 {
@@ -582,7 +583,6 @@ h2 {
 }
 
 .activites img {
-    position: absolute;
     height: 100%;
     width: 100%;
     object-fit: cover;
@@ -629,6 +629,7 @@ h2 {
 .conteneur {
     max-width: 1440px;
     margin: auto;
+    display: contents;
 }
 
 .colonne-footer {

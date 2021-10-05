@@ -31,6 +31,14 @@
         flex-wrap: wrap;
     }
 
+    h1 {
+        font-size: 25px;
+    }
+
+    p {
+        font-size: 18px;
+    }
+
     .en-tete ul {
         display: inline-flex;
     }
@@ -74,6 +82,7 @@
     .recherche form {
         max-width: 100%;
         overflow: auto;
+        padding-top: 1rem;
     }
 
     .recherche form input[type="recherche"] {
@@ -179,6 +188,10 @@
         margin: 1rem 0 0;
     }
 
+    .activites_wrapper {
+    display: block;
+}
+
     .activites {
         display: flex;
         flex-direction: column;
@@ -195,9 +208,17 @@
         box-shadow: 0 0 7px #0000002e;
         margin-block: 2rem;
     }
+
+    .colonne-footer {
+        display: block;
+    }
+
+    .colonneapropos {
+        padding-top: 1rem;
+    }
+
+    .colonneassistance {
+        padding-bottom: 4rem;
+    }
 }
 
-.colonne-footer {
-    display: flex;
-    flex-direction: column;
-}

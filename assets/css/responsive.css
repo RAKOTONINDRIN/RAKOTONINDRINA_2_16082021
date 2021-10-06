@@ -7,6 +7,7 @@
 @media screen and (max-width: 767px) {
     .mobile {
         display: block;
+        padding: initial;
     }
 
     .header .mobile {
@@ -195,7 +196,6 @@
     .activites {
         display: flex;
         flex-direction: column;
-        padding: 20px;
         margin: 0px;
     }
 

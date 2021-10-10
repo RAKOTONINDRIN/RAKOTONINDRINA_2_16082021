@@ -1,6 +1,23 @@
 @media screen and (min-width: 768px) and (max-width: 1024px) {
     .search {
         display: none;
+    }  
+    
+    body {
+        padding: 1rem 1rem 1rem 1rem;
+    }
+
+    .hebergements_wrapper {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .hebergements-marseille {
+        width: 100%;
+    }
+
+    .lespluspopulaires {
+        width: 100%;
     }
 }
     .activites {

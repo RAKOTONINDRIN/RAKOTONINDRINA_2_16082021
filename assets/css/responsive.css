@@ -3,7 +3,9 @@
         display: none;
     }
 }
-
+    .activites {
+        margin: 1rem;
+    }
 @media screen and (max-width: 767px) {
     .mobile {
         display: block;

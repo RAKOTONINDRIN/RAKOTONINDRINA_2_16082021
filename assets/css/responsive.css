@@ -18,6 +18,16 @@
 
     .lespluspopulaires {
         width: 100%;
+        display: -webkit-inline-box;
+         margin: 2rem 0rem 0rem 0rem;
+    
+    inline-size: auto;
+
+        
+    }
+
+    article {
+        float: left;
     }
 }
     .activites {

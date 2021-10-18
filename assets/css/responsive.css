@@ -3,8 +3,28 @@
         display: none;
     }  
     
-    body {
-        padding: 1rem 1rem 1rem 1rem;
+    .header {
+        padding: 0 1rem;
+    }
+
+    header {
+        padding: 0 1rem;
+    }
+
+    .filtres-de-recherche {
+        padding: 1rem
+    }
+
+    .information {
+        padding: 0 1rem;
+    }
+     
+    .recherche form {
+        padding: 0 1rem;
+    }
+
+    span {
+        margin-right: 10px;
     }
 
     .hebergements_wrapper {
@@ -14,16 +34,18 @@
 
     .hebergements-marseille {
         width: 100%;
+        grid-template-columns: repeat(2, 1fr);
     }
 
     .lespluspopulaires {
-        width: 100%;
-        display: -webkit-inline-box;
-         margin: 2rem 0rem 0rem 0rem;
-    
-    inline-size: auto;
+        display: block;
+        margin: 1.5rem;
+        inline-size: auto;   
+    }
 
-        
+    .lespluspopulaires p {
+        margin: 0;
+        padding-left: 10px;
     }
 
     article {
@@ -32,6 +54,14 @@
 }
     .activites {
         margin: 1rem;
+    }
+
+    .activites_wrapper {
+        grid-template-columns: 2fr 2fr;
+    }
+    
+    .activites_wrapper h2 {
+        width: 100%;
     }
 @media screen and (max-width: 767px) {
     .mobile {

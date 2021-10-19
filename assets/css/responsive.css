@@ -30,6 +30,7 @@
     .hebergements_wrapper {
         display: flex;
         flex-wrap: wrap;
+        padding: 1rem
     }
 
     .hebergements-marseille {
@@ -38,9 +39,11 @@
     }
 
     .lespluspopulaires {
-        display: block;
-        margin: 1.5rem;
-        inline-size: auto;   
+        margin-top: 1rem;
+        inline-size: auto;
+        display: grid;
+        flex: auto;
+        justify-content: normal;  
     }
 
     .lespluspopulaires p {
@@ -56,10 +59,12 @@
         margin: 1rem;
     }
 
-    .activites_wrapper {
-        grid-template-columns: 2fr 2fr;
+    .activites img {
+        width: 100%;
     }
-    
+
+
+
     .activites_wrapper h2 {
         width: 100%;
     }

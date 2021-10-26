@@ -1,44 +1,60 @@
-@media screen and (min-width: 768px) and (max-width: 1024px) {
-    .search {
+
+    grid-template-rows: auto 12rem 12rem 12rem;
+    row-gap: 2rem;
+}
+    
+@media screen and (min-width: 768px) and (max-width: 1024px) 
+{    
+    .search 
+    {
         display: none;
     }  
     
-    .header {
+    .header 
+    {
         padding: 0 1rem;
     }
 
-    header {
+    header 
+    {
         padding: 0 1rem;
     }
 
-    .filtres-de-recherche {
+    .filtres-de-recherche 
+    {
         padding: 1rem
     }
 
-    .information {
+    .information 
+    {
         padding: 0 1rem;
     }
      
-    .recherche form {
+    .recherche form 
+    {
         padding: 0 1rem;
     }
 
-    span {
+    span 
+    {
         margin-right: 10px;
     }
 
-    .hebergements_wrapper {
+    .hebergements_wrapper 
+    {
         display: flex;
         flex-wrap: wrap;
         padding: 1rem
     }
 
-    .hebergements-marseille {
+    .hebergements-marseille 
+    {
         width: 100%;
         grid-template-columns: repeat(2, 1fr);
     }
 
-    .lespluspopulaires {
+    .lespluspopulaires
+    {
         margin-top: 1rem;
         inline-size: auto;
         display: grid;
@@ -46,115 +62,140 @@
         justify-content: normal;  
     }
 
-    .lespluspopulaires p {
+    .lespluspopulaires p 
+    {
         margin: 0;
         padding-left: 10px;
     }
 
-    article {
+    article 
+    {
         float: left;
     }
 }
-    .activites {
+    .activites 
+    {
         margin: 1rem;
     }
 
-    .activites img {
+    .activites img 
+    {
         width: 100%;
     }
-
-
-
-    .activites_wrapper h2 {
+        
+    .activites_wrapper h2 
+    {
         width: 100%;
     }
-@media screen and (max-width: 767px) {
-    .mobile {
+}
+
+@media screen and (max-width: 767px) 
+{
+    .mobile 
+    {
         display: block;
         padding: initial;
     }
 
-    .header .mobile {
+    .header .mobile 
+    {
         margin-right: 20px;
     }
 
-    .lien-logo {
+    .lien-logo 
+    {
         margin-left: 20px;
     }
 
-    #inscription {
+    #inscription
+    {
         display: none;
     }
 
-    .header .mobile a {
+    .header .mobile a 
+    {
         color: #0065fc;
         font-weight: bold;
     }
 
-    .header {
+    .header 
+    {
         display: flex;
         flex-wrap: wrap;
     }
 
-    h1 {
+    h1 
+    {
         font-size: 25px;
     }
 
-    p {
+    p 
+    {
         font-size: 18px;
     }
 
-    .en-tete ul {
+    .en-tete ul 
+    {
         display: inline-flex;
     }
 
 
 
-    .en-tete li {
+    .en-tete li 
+    {
         display: inline-block;
     }
 
-    .en-tete li.active {
+    .en-tete li.active 
+    {
         border-bottom: 3px solid #0065FC;
         border-top: none;
     }
 
-    nav {
+    nav
+     {
         display: block;
         width: 100%;
     }
 
-    .en-tete nav ul {
+    .en-tete nav ul
+    {
         width: 100%;
         display: flex;
     }
 
-    .en-tete nav ul li {
+    .en-tete nav ul li 
+    {
         width: 50%;
         padding: 1rem;
     }
 
-    section.recherche {
+    section.recherche 
+    {
         padding: 20px;
     }
 
 
-    #submit {
+    #submit 
+    {
         display: none;
     }
 
 
-    .recherche form {
+    .recherche form 
+    {
         max-width: 100%;
         overflow: auto;
         padding-top: 1rem;
     }
 
-    .recherche form input[type="recherche"] {
+    .recherche form input[type="recherche"] 
+    {
         font-family: unset;
     }
 
-    .recherche form button {
+    .recherche form button 
+    {
         background-color: #0065FC;
         color: white;
         font-weight: bold;
@@ -166,79 +207,95 @@
         padding-right: 1rem;
     }
 
-    span {
+    span 
+    {
         display: inline-flex;
         align-items: baseline;
         margin-right: 5px;
     }
 
-    .filtres-de-recherche i {
+    .filtres-de-recherche i 
+    {
         min-height: 0rem;
         min-width: 0rem;
     }
 
-    .filtres-de-recherche div {
+    .filtres-de-recherche div 
+    {
         margin-right: 1rem;
     }
 
 
 
-    .filtres-de-recherche {
+    .filtres-de-recherche 
+    {
         margin-top: 2rem;
         display: flex;
         flex-wrap: wrap;
     }
 
-    h2 {
+    h2 
+    {
         width: 100%;
     }
 
-    i.fas.fa-money-bill-wave {
+    i.fas.fa-money-bill-wave 
+    {
         margin: -2px;
     }
 
-    i.fas.fa-child {
+    i.fas.fa-child 
+    {
         margin: -2px;
     }
 
-    i.fas.fa-heart {
+    i.fas.fa-heart 
+    {
         margin: -2px;
     }
 
-    i.fas.fa-dog {
+    i.fas.fa-dog 
+    {
         margin: -2px;
     }
 
-    .filtres-de-recherche {
+    .filtres-de-recherche 
+    {
         margin-top: 2rem;
     }
 
-    i.fas.fa-money-bill-wave {
+    i.fas.fa-money-bill-wave 
+    {
         margin: -2px;
     }
 
-    .information {
+    .information 
+    {
         margin: 1rem 0 1rem 0px;
     }
 
-    aside.lespluspopulaires {
+    aside.lespluspopulaires 
+    {
         border-radius: 0rem;
         row-gap: 1rem;
         margin: -1rem 0 0rem 0;
     }
 
-    .lespluspopulaires article {
+    .lespluspopulaires article 
+    {
         margin: 0px;
     }
 
-    .hebergements_wrapper {
+    .hebergements_wrapper 
+    {
         display: flex;
         flex-direction: column-reverse;
         column-gap: unset;
         grid-template-columns: none;
     }
 
-    .hebergements-marseille {
+    .hebergements-marseille 
+    {
         border-radius: 1.5rem;
         padding: 1rem;
         column-gap: 2rem;
@@ -249,39 +306,47 @@
 
     }
 
-    li {
+    li 
+    {
         margin: 1rem 0 0;
     }
 
-    .activites_wrapper {
+    .activites_wrapper 
+    {
     display: block;
 }
 
-    .activites {
+    .activites 
+    {
         display: flex;
         flex-direction: column;
         margin: 0px;
     }
 
-    .activites img {
+    .activites img 
+    {
         position: inherit;
         height: 15rem;
     }
 
-    .activites a {
+    .activites a 
+    {
         box-shadow: 0 0 7px #0000002e;
         margin-block: 2rem;
     }
 
-    .colonne-footer {
+    .colonne-footer 
+    {
         display: block;
     }
 
-    .colonneapropos {
+    .colonneapropos 
+    {
         padding-top: 1rem;
     }
 
-    .colonneassistance {
+    .colonneassistance 
+    {
         padding-bottom: 4rem;
     }
 }

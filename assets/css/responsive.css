@@ -50,6 +50,7 @@
 
     .lespluspopulaires
     {
+        padding: 2rem 1rem;
         margin-top: 1rem;
         inline-size: auto;
         display: grid;
@@ -81,6 +82,11 @@
     {
         width: 100%;
     }
+    .activites_wrapper
+    {
+        display: inline;
+    }
+
 }
 
 @media screen and (max-width: 767px) 
@@ -274,6 +280,7 @@
         border-radius: 0rem;
         row-gap: 1rem;
         margin: -1rem 0 0rem 0;
+        padding: 2rem 1rem;
     }
 
     .lespluspopulaires article 

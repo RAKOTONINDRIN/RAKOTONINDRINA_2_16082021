@@ -594,6 +594,10 @@ h2 {
     grid-row: 2/5;
 }
 
+#B .actMars {
+    height: 50%;
+}
+
 #C {
     grid-column: 3/4;
     grid-row: 2/7;

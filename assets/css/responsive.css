@@ -67,6 +67,7 @@
         margin: 3rem 0;
         grid-template-rows: none;
     }
+
     .activites_wrapper h2 {
         width: 100%;
         grid-column: 1/-1;

@@ -60,6 +60,7 @@
         margin: 1rem;
     }
 
+
     .activites_wrapper {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -73,16 +74,28 @@
         grid-column: 1/-1;
     }
 
+    #A .actMars {
+        position: relative;
+        flex: none;
+    }
+
+    #B .actMars {
+        position: relative;
+    }
+
     #A {
         grid-row: 2;
         grid-column: 1;
         margin: 1rem 0rem;
+        height: fit-content;
     }
 
     #B {
         grid-row: 2;
         grid-column: 2;
         margin: 1rem 0rem;
+        contain: size;
+
     }
 
     #C {
@@ -107,6 +120,10 @@
         grid-row: 4;
         grid-column: 2;
         margin: 1rem 0rem;
+    }
+
+    .colonneassistance {
+        padding-right: 10px;
     }
 }
 

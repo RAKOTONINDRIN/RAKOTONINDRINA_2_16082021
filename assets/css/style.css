@@ -2,8 +2,6 @@
     font-family: 'Raleway';
     src:
         url(../fonts/Raleway-Regular.ttf) format('truetype'),
-        /* Safari, Android, iOS */
-
 }
 
 html {
@@ -183,9 +181,7 @@ h1 {
 input {
     appearance: auto;
     box-sizing: border-box;
-    -webkit-writing-mode: horizontal-tb !important;
     text-rendering: auto;
-    color: -internal-light-dark(black, white);
     letter-spacing: normal;
     word-spacing: normal;
     line-height: normal;
@@ -194,9 +190,7 @@ input {
     text-shadow: none;
     display: inline-block;
     text-align: start;
-    -webkit-rtl-ordering: logical;
     cursor: text;
-    background-color: -internal-light-dark(rgb(255, 255, 255), rgb(59, 59, 59));
     margin: 0em;
     border-image: initial;
 }
@@ -215,7 +209,6 @@ input {
 
 button {
     appearance: auto;
-    -webkit-writing-mode: horizontal-tb !important;
     text-rendering: auto;
     letter-spacing: normal;
     word-spacing: normal;
@@ -421,7 +414,6 @@ aside {
 .far,
 .fas {
     font-weight: 900;
-    -webkit-font-smoothing: antialiased;
     font-style: normal;
     font-variant: normal;
     text-rendering: auto;
@@ -542,7 +534,6 @@ p {
     column-gap: 2rem;
     margin: 3rem 0;
     grid-template-rows: auto 18rem 2rem 0rem 2rem 18rem;
-}
 }
 
 .activites h2 {
